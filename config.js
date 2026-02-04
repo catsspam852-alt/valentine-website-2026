@@ -25,15 +25,15 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, I LIIIIIKE you! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do you like me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
+            text: "Will you be my Valentine? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -42,26 +42,26 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "Awwwww... I love you to 😭",  // Shows when they go past 5000%
-        high: "In This life and the Next!💐",              // Shows when they go past 1000%
+        extreme: "Awwwww... I like you to 😭",  // Shows when they go past 5000%
+        high: "you got me blushing 😚",              // Shows when they go past 1000%
         normal: "You better keep sliding it 👀"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "I am the luckiest person in the world 💜",
-        message: "Catullo's? Dressing up? Flowers? Slow burn?",
-        emojis: "💐🔥💜💚❤️😚"  // These will bounce around
+        title: "GUYS SHE SAID YES 🎉",
+        message: "... im broke so... grilled cheese? ",
+        emojis: "💐💛❤️💖🩵"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#c5d89d",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#9eb384",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#435334",     // Button color (should stand out against the background)
-        buttonHover: "#6b7445",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#faf1e4"             // Text color (make sure it's readable!)
+        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#ffc3o0",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
+        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
